@@ -1,0 +1,225 @@
+.topStyle{
+	top:0;
+	padding:10px;
+	position:fixed;
+	left:0;
+	height:70px;
+	width:100%;
+    background-image:url("top-bg1.jpg");
+	background-color: #303030;
+	z-index: 10;
+    opacity:0.9;
+}
+.sidebar{
+	display: block;
+	position:fixed;
+	margin-top:70px;
+	top:20px;
+	left:0;
+	padding-top:15px;
+	width:200px;
+	height:100%;
+	background-color: #caa833;
+	z-index:5;
+    opacity:0.9;
+}
+.container{
+	position:absolute;
+	margin-top: 70px;
+	margin-left:200px;
+	margin-right:0;
+	padding: 30px 20px 20px 20px;
+	z-index: 1;
+}
+.container form{
+	line-height: 2em;
+	display: block;
+}
+.container table{
+	text-align:left;
+	font-style:normal;
+}
+.container table td{
+	vertical-align:top;
+}
+.container table tr:nth-child(odd){
+	background-color: #fcefc2;
+}
+.container table tr:nth-child(even){
+	background-color: #d9c47e;
+}
+.container table th{
+	min-width:13em;
+	color:#fcfcfc;
+	background-color: #707a2b;
+}
+.container .tableLarge th{
+	min-width: 7em;
+}
+.container fieldset{
+	min-height: 200px;
+	min-width:30em;
+	font-size: 20px;
+	font-style:italic;
+	line-height: 1.7em;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+}
+.container fieldset legend{
+	font-size: 25px;
+	color:brown;
+	font-style:normal;
+}
+.container fieldset p{
+	white-space: pre-wrap;
+    color:#fff;
+}
+.sidebar button{
+	text-decoration: none;
+	border:none;
+    background-color: #747d2c;
+	padding:10px;
+	height:20px auto;
+	font-size: 20px;
+	cursor:pointer;
+	width:200px;
+	margin-bottom:15px;
+	color:white;
+}
+.sidebar button:hover{
+	background-color:#5a6123;
+}
+.sidebar button:active{
+	background-color: #303030;
+}
+#createAccount{
+	top:30px;
+	right:50px;
+	position:absolute;
+}
+#logoutButton{
+	top:30px;
+	right:5%;
+	position:absolute;
+}
+.userNameDisplay{
+	top:30px;
+	right:5%;
+	position:absolute;
+	color:#d9b500;
+	font-style:italic;
+	font-size: 30px;
+}
+#userLogin{
+	top:30px;
+	right:280px;
+	position:absolute;
+}
+.btn{
+	text-decoration: none;
+	border:none;
+	background-color: #d4d48c;
+	padding:10px;
+	height:10px auto;
+	width:50px auto;
+	font-size: 20px;
+	cursor:pointer;
+}
+.btn:hover{
+	background-color:#abab71;
+	box-shadow: 2px 2px 0px #303030;
+	
+}
+.btn:active{
+	background-color: #6a6c6e;
+}
+body{
+	top:0;
+	left:0;
+	background-color: #fcfcfc;
+	font-family:sans-serif;
+	line-height: 1.5em;
+}
+.loginBody{
+	top:0;
+	left:0;
+	font-family:sans-serif;
+	line-height: 1.5em;
+	background-color: #a6abb2;
+    background-image:url("bg1-3.jpg");
+    background-size:cover;
+    
+}
+.mybox{
+	position:absolute;
+	top:25%;
+	left:35%;
+	height:300px auto;
+	padding: 50px;
+	text-align: center;
+	background-color: #838c39;
+    background-image:url("top-bg1.jpg");
+	box-shadow: 3px 3px 0px #303030;
+    opacity:.9;
+}
+.inputItem{
+	display:block;
+	padding:3px;
+	height:30px;
+	width:250px;
+	border:0px;
+    outline:none;
+	border-radius: 2px;
+	background-color:#ffffb8;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-bottom:3px solid #33332c;
+}
+.formInputItem{
+	padding:3px;
+	width:250px;
+	border:0px;
+	border-radius: 2px;
+    outline:none;
+	background-color:#e3e5ea;
+	display: inline-block;
+	height:40px;
+	margin-top:10px;
+	margin-right: 5px;
+}
+.goBtn{
+	min-width:6.5em;
+	height:3.5em;
+	border:none;
+	background-color:#99a168;
+	color:white;
+	cursor:pointer;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  color:white
+}
+
+textarea{
+	resize:none;
+	vertical-align: top;
+	font-family: sans-serif;
+	padding:3px;
+	width:250px;
+	border:0px;
+	border-radius: 2px;
+	background-color:#e3e5ea;
+	display: inline-block;
+	height:120px;
+	margin-top:10px;
+	margin-right: 5px;
+}
+body{
+    background-image:url("e.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
